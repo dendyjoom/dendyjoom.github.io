@@ -1,0 +1,11 @@
+---
+teeser:
+  - enable: true
+    title: '123'
+    link: '333'
+  - enable: true
+    title: '123'
+    link: '333'
+enable: true
+---
+undefined
