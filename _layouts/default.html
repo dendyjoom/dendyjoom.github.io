@@ -3,8 +3,7 @@
 
   {%- include head.html -%}
 
-  <body data-tds="{{page.tds}}">
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <body">
     {%- include header.html -%}
 
     <main class="page-content" aria-label="Content">
@@ -15,16 +14,11 @@
 
     {%- include footer.html -%}
     <script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
+    var JEKYLLPLUS_REPO = 'dendyjoom/dendyjoom.github.io/master';
+    var JEKYLLPLUS_PATH = '{{ page.path }}';
+    </script>
+    <script src='//cms.jekyllplus.com/assets/widget.js'/></script>
+    <link rel='stylesheet' href='//cms.jekyllplus.com/assets/widget.css'/>
   </body>
 
 </html>
