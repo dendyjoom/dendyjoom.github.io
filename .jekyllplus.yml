@@ -24,6 +24,11 @@ collections:
           - name: image
             label: Image
             type: image
+      - name: enable
+        label: Enable
+        type: switch
+        default: true
+
   pages:
     name: Pages
     fields:
