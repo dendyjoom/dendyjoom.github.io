@@ -6,7 +6,9 @@ collections:
   teesers:
     name: Teesers
     fields:
-      - object:
+      - name: teeser
+        label: Teeser
+        type: object
         multiple: true
         fields: 
           - name: enable
