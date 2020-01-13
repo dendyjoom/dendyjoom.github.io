@@ -4,7 +4,8 @@
 
 collections:
   teesers:
-    name: Teesers
+    name: teesers
+    label: Tessers
     fields:
       - name: teeser
         label: Teeser
