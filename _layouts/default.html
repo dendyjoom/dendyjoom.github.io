@@ -16,6 +16,12 @@
     <script>
     var JEKYLLPLUS_REPO = 'dendyjoom/dendyjoom.github.io/master';
     var JEKYLLPLUS_PATH = '{{ page.path }}';
+    var JEKYLLPLUS_MENU = JEKYLLPLUS_MENU || [
+      { label: 'Create a page', path: 'new?collection=pages' },
+      { label: 'Create a post', path: 'new?collection=posts' },
+      { label: 'Create a teeser', path: 'new?collection=teesers' },
+      { label: 'See all files', path: 'files' }
+    ];
     </script>
     <script src='//cms.jekyllplus.com/assets/widget.js'/></script>
     <link rel='stylesheet' href='//cms.jekyllplus.com/assets/widget.css'/>
