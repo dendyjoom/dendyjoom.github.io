@@ -5,21 +5,23 @@
 collections:
   teesers:
     name: Teesers
-    multiple: true
     fields:
-      - name: enable
-        label: Enable
-        type: switch
-        default: true
-      - name: title
-        label: Title
-        type: string
-      - name: link
-        label: Link
-        type: string
-      - name: image
-        label: Image
-        type: image
+      - object:
+        multiple: true
+        fields: 
+          - name: enable
+            label: Enable
+            type: switch
+            default: true
+          - name: title
+            label: Title
+            type: string
+          - name: link
+            label: Link
+            type: string
+          - name: image
+            label: Image
+            type: image
   pages:
     name: Pages
     fields:
