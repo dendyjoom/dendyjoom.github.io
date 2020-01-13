@@ -5,6 +5,7 @@
 collections:
   teesers:
     name: Teesers
+    multiple: true
     fields:
       - name: enable
         label: Enable
